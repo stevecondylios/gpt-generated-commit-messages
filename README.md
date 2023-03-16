@@ -5,6 +5,9 @@ Demo: All of the [commit messages](https://github.com/stevecondylios/gpt-generat
 
 This obviously shouldn't be used for serious projects, but it's a fun way to play around with CHATGPT's models and save a little time on projects where you commit messages don't matter much.
 
+
+<img src="docs/imgs/commit.gif">
+
 # Setup 
 
 Add the following code to `~/.bashrc`, or `~/.zshrc`, and open a new terminal window (or just copy/paste it all into a new terminal session and set the `OPENAI_API_KEY` environment variable in the same session):
