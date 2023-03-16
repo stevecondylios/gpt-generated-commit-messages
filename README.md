@@ -32,7 +32,7 @@ commit() {
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -d "{
     \"model\": \"gpt-3.5-turbo\",
-    \"messages\": [{\"role\": \"user\", \"content\": \"Can you give a prosaic commit message that is as terse as possible and that summarises the changes represented by this \`git diff\` output: $ENCODED_DIFF_OUTPUT\"}],
+    \"messages\": [{\"role\": \"user\", \"content\": \"Can you give a short commit message (under 50 words) that summarises the changes represented by this \`git diff\` output: $ENCODED_DIFF_OUTPUT\"}],
     \"temperature\": 0.7
   }")
 
