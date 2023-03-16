@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Pages</h1>
+
+<div id="pages">
+  <% @pages.each do |page| %>
+    <%= render page %>
+    <p>
+      <%= link_to "Show this page", page %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New page", new_page_path %>
